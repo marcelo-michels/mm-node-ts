@@ -1,0 +1,37 @@
+{
+  "name": "node-ts",
+  "version": "1.0.0",
+  "description": "NodeJS template with typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "dev": "nodemon",
+    "build": "tsc",
+    "test": "jest --force-exit --detectOpenHandles",
+    "test:coverage": "npm run test -- --coverage",
+    "prettier": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript"
+  ],
+  "author": "Marcelo Michels",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.8",
+    "ts-node": "^10.9.1"
+  }
+}
