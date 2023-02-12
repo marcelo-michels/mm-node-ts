@@ -1,3 +1,4 @@
+import { describe, expect, test } from 'vitest';
 import { joinWords } from '../src/main';
 
 describe('main.ts', () => {
