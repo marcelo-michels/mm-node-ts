@@ -3,7 +3,6 @@
 A basic Node JS template for startup projects with:
 
 - Typescript
-- Nodemon
 - Husky
 - Jest
 - Prettier
