@@ -10,8 +10,8 @@
     "sourceMap": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
   },
   "include": ["src"],
-  "exclude": []
+  "exclude": [],
 }
