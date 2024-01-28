@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJS template with typescript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "tsx watch src/main.ts",
     "build": "tsup src/",
