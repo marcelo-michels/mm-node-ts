@@ -22,6 +22,7 @@
   "author": "Marcelo Michels",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^20.11.20",
     "@typescript-eslint/eslint-plugin": "^6.19.1",
     "@typescript-eslint/parser": "^6.19.1",
     "@vitest/coverage-v8": "^1.2.2",
