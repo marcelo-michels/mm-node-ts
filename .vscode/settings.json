@@ -4,5 +4,8 @@
     "source.organizeImports": "explicit"
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "typescript.preferences.importModuleSpecifier": "relative"
 }
