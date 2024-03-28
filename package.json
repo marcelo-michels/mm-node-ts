@@ -4,8 +4,9 @@
   "description": "NodeJS template with typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/main.ts",
-    "build": "tsup src/",
+    "check-nvm": "node scripts/check-nvm.js",
+    "dev": "npm run check-nvm && tsx watch src/main.ts",
+    "build": "npm run check-nvm && tsup src/",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
@@ -13,7 +14,7 @@
     "prettier:fix": "prettier --write .",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky",
+    "prepare": "husky && npm run check-nvm",
     "postinstall": "npm-check-updates",
     "update": "ncu -u"
   },
