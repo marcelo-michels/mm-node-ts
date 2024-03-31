@@ -1,6 +1,6 @@
 # node-ts
 
-A basic Node JS template for startup projects with:
+A basic Node JS template created with `npm create michels` for startup projects with:
 
 - Typescript
 - Husky
