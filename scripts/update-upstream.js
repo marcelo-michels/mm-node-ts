@@ -1,4 +1,4 @@
-import { execSync } from 'child_process';
+const { execSync } = require('child_process');
 
 const upstreamRepo = 'git@github.com:marcelo-michels/node-ts.git';
 
