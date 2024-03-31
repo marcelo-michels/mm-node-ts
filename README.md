@@ -1,6 +1,6 @@
 # node-ts
 
-A basic Node JS template created with `npm create michels` for startup projects with:
+A basic Node JS template created with `npm create mm` for startup projects with:
 
 - Typescript
 - Husky
@@ -38,6 +38,6 @@ npm run test:coverage
 
 Update upstream
 
-```
+```sh
 node scripts/update-upstream.js
 ```
