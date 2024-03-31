@@ -15,7 +15,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky && npm run check-nvm",
-    "check-update": "npx npm-check-updates"
+    "update-npm": "npx npm-check-updates",
+    "update-upstream": "node scripts/update-upstream.js"
   },
   "keywords": [
     "nodejs",

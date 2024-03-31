@@ -8,7 +8,7 @@ async function updateUpstream() {
 
     execSync(`git remote add upstream ${upstreamRepo} || true`);
     execSync('git fetch upstream');
-    execSync('git pull upstream/main --allow-unrelated-histories --squash');
+    execSync('git merge upstream/main');
 
     console.log('Upstream updated!');
   } catch (error) {
