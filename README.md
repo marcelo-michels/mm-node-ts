@@ -35,3 +35,9 @@ Test Coverage
 ```sh
 npm run test:coverage
 ```
+
+Update upstream
+
+```
+node scripts/update-upstream.js
+```
