@@ -8,7 +8,7 @@ async function updateUpstream() {
 
     execSync(`git remote add upstream ${upstreamRepo} || true`);
     execSync('git fetch upstream');
-    execSync('git pull upstream main');
+    execSync('git merge upstream/main');
     execSync('git push origin master');
 
     console.log('Upstream updated!');
