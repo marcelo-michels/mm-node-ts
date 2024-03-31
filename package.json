@@ -15,8 +15,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "prepare": "husky && npm run check-nvm",
-    "postinstall": "npm-check-updates",
-    "update": "ncu -u"
+    "check-update": "npx npm-check-updates"
   },
   "keywords": [
     "nodejs",
@@ -35,7 +34,6 @@
     "prettier": "^3.2.5",
     "tsup": "^8.0.2",
     "tsx": "^4.7.1",
-    "vitest": "^1.4.0",
-    "npm-check-updates": "^16.14.18"
+    "vitest": "^1.4.0"
   }
 }
