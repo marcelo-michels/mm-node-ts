@@ -1,4 +1,4 @@
-name: Tests
+name: tests
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
       - main
 
 jobs:
-  Tests:
+  tests:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest]

@@ -1,0 +1,59 @@
+name: update-dependencies
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-and-test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Use Node.js from .nvmrc
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          cache: 'npm'
+
+      - name: Update dependencies
+        run: npm update
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run Test
+        run: npm run test:coverage
+
+      - name: Archive production artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: updated-package-files
+          path: |
+            package.json
+            package-lock.json
+
+  create-pr:
+    needs: update-and-test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: updated-package-files
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: 'Update dependencies'
+          title: 'Update dependencies'
+          body: 'This PR updates the npm dependencies.'
+          branch: 'update-dependencies'
