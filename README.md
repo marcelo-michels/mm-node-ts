@@ -4,11 +4,12 @@ A basic Node JS template created with `npm create mm` for startup projects with:
 
 - Typescript
 - Husky
-- Jest
+- Vitest
 - Prettier
 - Lint
 - VS Code Settings
 - Github Actions
+- Dependabot Updates (Github)
 
 ## Usage
 
