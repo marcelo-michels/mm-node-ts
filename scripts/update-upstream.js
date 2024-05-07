@@ -1,6 +1,6 @@
 const { execSync } = require('child_process');
 
-const upstreamRepo = 'git@github.com:marcelo-michels/node-ts.git';
+const upstreamRepo = 'git@github.com:marcelo-michels/mm-node-ts.git';
 
 async function updateUpstream() {
   try {

@@ -1,4 +1,4 @@
-# node-ts
+# mm-node-ts
 
 A basic Node JS template created with `npm create mm` for startup projects with:
 

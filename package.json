@@ -1,5 +1,5 @@
 {
-  "name": "node-ts",
+  "name": "mm-node-ts",
   "version": "1.0.0",
   "description": "NodeJS template with typescript",
   "main": "index.js",
