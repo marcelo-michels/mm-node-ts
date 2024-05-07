@@ -1,6 +1,6 @@
 # mm-node-ts
 
-A basic Node JS template created with `npm create mm` for startup projects with:
+A basic Node JS template created with `npm create mm` for setup project with:
 
 - Typescript
 - Husky
