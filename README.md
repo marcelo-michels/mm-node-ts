@@ -1,6 +1,6 @@
 # mm-node-ts
 
-A basic Node JS template created with `npm create mm` for setup project with:
+A basic Node JS template, for setup project with:
 
 - Typescript
 - Husky
@@ -10,6 +10,12 @@ A basic Node JS template created with `npm create mm` for setup project with:
 - VS Code Settings
 - Github Actions
 - Dependabot Updates (Github)
+
+## Use this template
+
+```sh
+gh repo create [<name>] --public --clone --template marcelo-michels/mm-node-ts 
+```
 
 ## Usage
 
