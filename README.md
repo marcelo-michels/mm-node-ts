@@ -14,7 +14,7 @@ A basic Node JS template, for setup project with:
 ## Use this template
 
 ```sh
-gh repo create [<name>] --public --clone --template marcelo-michels/mm-node-ts 
+gh repo create [<name>] --public --clone --template marcelo-michels/mm-node-ts
 ```
 
 ## Usage
