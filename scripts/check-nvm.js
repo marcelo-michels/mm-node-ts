@@ -1,5 +1,5 @@
-const fs = require('fs');
-const nvmrc = fs.readFileSync('.nvmrc', 'utf8').trim();
+import { readFileSync } from 'fs';
+const nvmrc = readFileSync('.nvmrc', 'utf8').trim();
 const nodeVersion = process.version.replace('v', '');
 if (!nodeVersion.startsWith(nvmrc)) {
   console.error(

@@ -4,7 +4,7 @@ A basic Node JS template, for setup project with:
 
 - Typescript
 - Husky
-- Vitest
+- NodeJS Native Testing
 - Prettier
 - Lint
 - VS Code Settings
