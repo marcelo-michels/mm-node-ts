@@ -7,5 +7,14 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "typescript.preferences.importModuleSpecifier": "relative"
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "files.exclude": {
+    ".husky": true,
+    ".eslintrc.json": true,
+    "tsup.config.ts": true,
+    "tsconfig.json": true,
+    ".gitattributes": true,
+    ".prettierrc": true,
+    ".prettierignore": true
+  }
 }
