@@ -26,18 +26,18 @@
   "author": "Marcelo Michels",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.12.12",
-    "@typescript-eslint/eslint-plugin": "^7.11.0",
-    "@typescript-eslint/parser": "^7.11.0",
+    "@types/node": "^20.14.8",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
     "@vitest/coverage-v8": "^1.6.0",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "glob": "^10.4.1",
+    "glob": "^10.4.2",
     "husky": "^9.0.11",
-    "prettier": "^3.2.5",
-    "tsup": "^8.0.2",
-    "tsx": "^4.11.0",
-    "typescript": "^5.4.5",
+    "prettier": "^3.3.2",
+    "tsup": "^8.1.0",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2",
     "vitest": "^1.4.0"
   }
 }
