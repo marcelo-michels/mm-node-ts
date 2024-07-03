@@ -16,6 +16,11 @@ A basic Node JS template, for setup project with:
 ```sh
 gh repo create [<name>] --public --clone --template marcelo-michels/mm-node-ts
 ```
+or
+```
+npm create mm
+```
+
 
 ## Usage
 
