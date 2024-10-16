@@ -26,16 +26,16 @@
   "author": "Marcelo Michels",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.16.5",
+    "@types/node": "^20.16.11",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "eslint": "^8.57.0",
+    "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.0",
     "glob": "^11.0.0",
-    "husky": "^9.1.5",
+    "husky": "^9.1.6",
     "prettier": "^3.3.3",
-    "tsup": "^8.2.4",
-    "tsx": "^4.19.0",
-    "typescript": "^5.5.4"
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
   }
 }
