@@ -10,7 +10,7 @@
   "typescript.preferences.importModuleSpecifier": "relative",
   "files.exclude": {
     ".husky": true,
-    ".eslintrc.json": true,
+    "eslint.config.mjs": true,
     "tsup.config.ts": true,
     "tsconfig.json": true,
     ".gitattributes": true,
