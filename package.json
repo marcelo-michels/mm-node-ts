@@ -26,13 +26,13 @@
   "author": "Marcelo Michels",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^22.15.33",
+    "@types/node": "^22.15.34",
     "@typescript-eslint/eslint-plugin": "^8.35.0",
     "@typescript-eslint/parser": "^8.35.0",
-    "eslint": "^9.29.0",
+    "eslint": "^9.30.0",
     "eslint-config-prettier": "^10.1.5",
     "husky": "^9.1.7",
-    "prettier": "^3.6.1",
+    "prettier": "^3.6.2",
     "tsup": "^8.5.0",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
